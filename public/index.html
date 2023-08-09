@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Post CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>My Post CRUD App</h1>
+    </header>
+    <div id="the-form">
+        <form>
+            <h2>Create a post:</h2>
+            <div>
+                <label for="postTitle">Title:</label>
+                <input type="text" name="postTitle" id="postTitle" placeholder="Heading">
+            </div>
+            <div>
+                <label for="postText">Text:</label>
+                <textarea name="postText" id="postText" placeholder="Some text here" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" onclick="createPost()">Submit Post</button>
+        </form>
+    </div>
+
+    <div id="result"></div>
+    <br>
+    <br>
+    <div id="posts"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

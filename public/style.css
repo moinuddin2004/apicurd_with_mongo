@@ -1,0 +1,157 @@
+/* style.css */
+body{
+    background-image: url("./Fp0Sio.webp");
+    background-size: cover; /* Adjust to "cover" or "contain" based on your preference */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* Reset default margins and paddings for the whole page */
+ h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #9e9b9b; /* Light gray background */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #007BFF;
+  }
+  
+  /* Style the form container */
+  #the-form {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(139, 130, 130, 0.5); /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
+  /* Style form inputs and textarea */
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 97%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the result and posts container */
+  #result, #posts {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(139, 130, 130, 0.5); /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
+  /* Style the individual post card */
+  .post-Card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color:rgba(139, 130, 130, 0.489); /* Light gray card background */
+    border-radius: 8px;
+  }
+  
+  .post-Card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-Card-content {
+    font-size: 16px;
+  }
+  
+  /* Style the edit and delete buttons */
+  .edit-button,
+  .delete-button {
+    background-color: #007BFF; /* Blue button background */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .delete-button {
+    background-color: #DC3545; /* Red button background */
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+
+
+
+  /* Add styles for the header */
+.app-header {
+    background-color: rgba(110, 94, 94, 0.5); /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px; /* Add padding around the header content */
+    text-align: center; /* Center align the heading text */
+}
+
+.app-header h1 {
+    font-family: 'Roboto', sans-serif; /* Apply the custom font-family to the heading */
+    font-size: 36px; /* Set the font size for the heading */
+    margin: 0; /* Remove any default margin to avoid spacing issues */
+}
+
+/* Add styles to the h1 element inside the header */
+.app-header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+
+/* Add a background image to the header */
+.app-header {
+    background-image: url('path/to/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
